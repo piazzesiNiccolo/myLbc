@@ -1,4 +1,4 @@
-# Learning by Cheating and Adversarial Robustness Toolbox
+# Integrate Learning by Cheating and Adversarial Robustness Toolbox
 This repo is a custom version of the [LearningByCheating](https://github.com/dianchen96/LearningByCheating) autonomous driving agent and related suite, which has been integrated with the IBM Adversarial Robustness Toolbox  for the injection of 4 attacks on the RGB camera:
 
 • Spatial Transformation (STA),
