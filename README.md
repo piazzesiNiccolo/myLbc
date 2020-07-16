@@ -11,7 +11,7 @@ This repo is a custom version of the [LearningByCheating](https://github.com/dia
 
 
 # Summary 
-For my Bachelor Thesis, I injected some adversarial attacks inside the images extracted by the RGB camera, before these are fed to the Learning By Cheating trained agent. The objective is to visualize theeffects of these attacks on the trained agents. 
+For my Bachelor Thesis in Computer Science at the University of Florence, I injected some adversarial attacks inside the images extracted by the RGB camera, before these are fed to the Learning By Cheating trained agent. The objective is to visualize theeffects of these attacks on the trained agents. 
 
 The attacks injected were provided by the Adversarial Robustness Toolbox ([ART](https://adversarial-robustness-toolbox.readthedocs.io/en/latest/)) library (version 1.2.0). This repo contains the modified LbC agent that I used to test the attacks. You can see the tests results and the videos recorded for the various runs [here](https://drive.google.com/drive/folders/1tTEAQSK2XAK_sdmuWo80Bd-58_pkiK3h?usp=sharing).
 
