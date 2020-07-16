@@ -18,12 +18,16 @@ The attacks injected were provided by the Adversarial Robustness Toolbox ([ART](
 
 |Attack |Completed Runs| Ignored Semaphores| Collisions| Timeouts|
 |---|---|---|---|---|
-
-|Golden run (no Attack) | 12/12 |  0 |0 |0|
+|Golden runs (no Attack) | 12/12 |0 |0 |0|
+|---|---|---|---|---|
 |HSJ |6/12 |9| 6| 0|
+|---|---|---|---|---|
 |STA |7/12| 0 |4| 1|
+|---|---|---|---|---|
 |BIM |0/12 | N/A| 12| 0|
+|---|---|---|---|---|
 |NF |3/12| 13| 9| 0|
+|---|---|---|---|---|
 
 # Installation
 The installation guide can be found in [HERE](https://github.com/dianchen96/LearningByCheating/blob/release-0.9.6/INSTALL.md). The process to install and use the software is pretty much the same, just remember to clone this modified repo instead of the original. If you want to skip compiling, use [this](quick_start.sh) script. I changed it to actually install this version.
