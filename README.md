@@ -1,13 +1,13 @@
-# Integrate Learning by Cheating and Adversarial Robustness Toolbox
-This repo is a custom version of the [LearningByCheating](https://github.com/dianchen96/LearningByCheating) autonomous driving agent and related suite, which has been integrated with the IBM Adversarial Robustness Toolbox  for the injection of 4 attacks on the RGB camera:
+# Learning by Cheating and Adversarial Robustness Toolbox
+This repo is a custom version of the [LearningByCheating](https://github.com/dianchen96/LearningByCheating) autonomous driving agent and related suite, which has been integrated with the IBM Adversarial Robustness Toolbox ([ART](https://adversarial-robustness-toolbox.readthedocs.io/en/latest/)) for the injection of 4 attacks on the RGB camera:
 
-• Spatial Transformation (STA),
+• Spatial Transformation ([STA] (https://adversarial-robustness-toolbox.readthedocs.io/en/latest/modules/attacks/evasion.html#spatial-transformations-attack)),
 
-• HopSkipJump (HSJ),
+• HopSkipJump ([HSJ](https://adversarial-robustness-toolbox.readthedocs.io/en/latest/modules/attacks/evasion.html#hopskipjump-attack)),
 
-• Basic Iterative Method (BIM),
+• Basic Iterative Method ([BIM](https://adversarial-robustness-toolbox.readthedocs.io/en/latest/modules/attacks/evasion.html#basic-iterative-method-bim)),
 
-• NewtonFool (NF).
+• NewtonFool ([NF](https://adversarial-robustness-toolbox.readthedocs.io/en/latest/modules/attacks/evasion.html#newtonfool)).
 
 
 # Summary 
