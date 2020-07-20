@@ -15,7 +15,7 @@ For my Bachelor Thesis in Computer Science at the University of Florence, I inje
 
 The attacks injected were provided by the Adversarial Robustness Toolbox ([ART](https://adversarial-robustness-toolbox.readthedocs.io/en/latest/)) library (version 1.2.0). This repo contains the modified LbC agent that I used to test the attacks. You can see the tests results and the videos recorded for the various runs [here](https://drive.google.com/drive/folders/1tTEAQSK2XAK_sdmuWo80Bd-58_pkiK3h?usp=sharing).
 
-The following table summarizes results.
+The following table summarizes results recorded in the regular suite 
 
 
 |Attack |Completed Runs| Ignored Semaphores| Collisions| Timeouts|
@@ -29,9 +29,19 @@ The following table summarizes results.
 # Installation
 The installation guide can be found in [HERE](https://github.com/dianchen96/LearningByCheating/blob/release-0.9.6/INSTALL.md). The process to install and use the software is pretty much the same, just remember to clone this modified repo instead of the original. If you want to skip compiling, use [this](quick_start.sh) script. I changed it to actually install this version.
 
-To select which attack to be injected during a run, it is required:
-- TO BE COMPLETED!!!
+# Usage
+To select which attack to be injected during a run, you need to change the string passed in the following line: 
 
+```self.attack = load_attack(self.adv, 'hopskipjump')```
+
+This line can be found in the __init__ method of the ImageAgent class. This class can be found in the [image](bird_view/models/image.py) module. You can choose each of the four attacks with the following strings:
+
+- 'hopskipjump' &rarr; HopSkipJump
+- 'spatialtransformation' &rarr; Spatial Transformation
+- 'newton' &rarr; NewtonFool
+- 'bim' &rarr; Basic Iterative Method
+
+To see the effects of these attacks you need to start the Lbc Benchmark Agent inside the [Carla](https://carla.org/) simulator. Instructions on how to do this can be found [here](https://github.com/dianchen96/LearningByCheating/blob/release-0.9.6/README.md), in the  __Running the Carla Server__ and __Running the LbC Agent__ sections.
 
 # Changes
  

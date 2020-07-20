@@ -102,7 +102,7 @@ class ImageAgent(Agent):
         self.img_size = np.array([w,h])
         self.gap = gap
         self.adv = load_model('/home/piazzesi/Desktop/carla_lbc/ckpts/image')
-        self.attack = load_attack(self.adv, 'pixel')
+        self.attack = load_attack(self.adv, 'hopskipjump')
         if steer_points is None:
             steer_points = {"1": 4, "2": 3, "3": 2, "4": 2}
 
