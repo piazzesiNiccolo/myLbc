@@ -27,7 +27,7 @@ def load_attack(classifier,attack):
     'hopskipjump':load_hopskip,
     'spatialtransformation':load_spatial,
     'newton':load_newton,
-    'bid':load_bid
+    'bim':load_bim
     }
     return attacks[attack](classifier)
 
@@ -41,7 +41,7 @@ def load_hopskip(classifier):
 def load_newton(classifier):
     return NewtonFool(classifier,max_iter=10)
 
-def load_bid(classifier):
+def load_bim(classifier):
     return BasicIterativeMethod(classifier=classifier, max_iter=20, eps=0.2 )
 
 def load_spatial(classifier):
