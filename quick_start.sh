@@ -9,7 +9,7 @@ git init
 git remote add origin https://github.com/piazzesiNiccolo/myLbc.git
 # rename the LICENSE file to avoid conflicts during the pull
 mv LICENSE CARLA_LICENSE 
-git pull origin release-0.9.6
+git pull origin HEAD
 wget http://www.cs.utexas.edu/~dchen/lbc_release/navmesh/Town01.bin
 wget http://www.cs.utexas.edu/~dchen/lbc_release/navmesh/Town02.bin
 mv Town*.bin CarlaUE4/Content/Carla/Maps/Nav/
