@@ -170,5 +170,4 @@ dependencies:
     - scikit-learn==0.22.1
     - terminaltables==3.1.0
     - torchsummary==1.5.1
-prefix: /home/piazzesi/anaconda3/envs/carlaLBT
 

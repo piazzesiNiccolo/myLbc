@@ -1,5 +1,5 @@
 # Download CARLA 0.9.6
-# wget http://carla-assets-internal.s3.amazonaws.com/Releases/Linux/CARLA_0.9.6.tar.gz
+wget http://carla-assets-internal.s3.amazonaws.com/Releases/Linux/CARLA_0.9.6.tar.gz
 mkdir carla_lbc
 tar -xvzf CARLA_0.9.6.tar.gz -C carla_lbc
 cd carla_lbc
@@ -16,7 +16,7 @@ mv Town*.bin CarlaUE4/Content/Carla/Maps/Nav/
 
 # Create conda environment
 conda env create -f environment.yml
-conda activate carla
+conda activate carlaLBT
 
 # Install carla client
 cd PythonAPI/carla/dist
